@@ -1,0 +1,16 @@
+
+class MainQueue:
+    def queueExample(self):
+        queue = Queue()
+        queue.put("Java")
+        queue.put("DotNet")
+        queue.put("PHP")
+        queue.put("HTML")
+
+        print("get : ", queue.get())
+        print("queue[0] : ", queue.queue[0])
+        print("get : ", queue.get())
+        print("queue[0] : ", queue.queue[0])
+
+if __name__ == '__main__':
+    MainQueue().queueExample()
